@@ -32,7 +32,7 @@ export const MoviesDatabase: React.FC<MoviesDatabaseProps> = ({
     <div className="movie-database-container">
       <h1>🎥 Movie Database 🍿</h1>
       <h3>
-        Fetching data from{" "}
+        An app built in React - TypeScript fetching data from{" "}
         <a href="https://www.omdbapi.com/" target="_blank" className="link">
           OMDb
         </a>{" "}

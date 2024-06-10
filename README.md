@@ -20,3 +20,7 @@ This project is a simple movie search application built with Vite in React and T
 3. Set up environment variables: Rename `.env.example` to `.env` and provide your OMDb API key.
 4. Start the development server: `npm run dev`
 5. Open your browser and navigate to ` http://localhost:5173` to view the app.
+
+## Deployed App
+
+The app is deployed and accessible at the following URL: [Movie DB](https://movie-db-react-ts.netlify.app/)
