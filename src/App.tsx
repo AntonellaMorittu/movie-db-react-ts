@@ -1,19 +1,13 @@
 import "./App.css";
 import { useState, useEffect, ChangeEvent } from "react";
 import { MoviesDatabase } from "./components/MoviesDatabase";
+import { Movie } from "./global/types";
 
 
 // Import environment variable with a specific typing. By default, TypeScript might treat these variables as unknown or any, which reduces type safety. The as type cast in TypeScript is a way to explicitly tell the TypeScript compiler to treat a value as a specific type. 
 const apiKey = import.meta.env.VITE_DB_API_KEY as string;
 const apiUrl = "https://www.omdbapi.com/";
 
-// Interface defining the shape of each movie object
-interface Movie {
-  imdbID: string;
-  Title: string;
-  Year: string;
-  Poster: string;
-}
 
 // Functional component
 const App: React.FC = () => {
